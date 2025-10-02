@@ -1,0 +1,19 @@
+function jumpHurdle() {
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    turnRight();
+    move();
+    turnLeft();
+}
+
+function main() {
+    for (let i = 0; i < 5; i++) {   
+        move();                     
+        move();                     
+        jumpHurdle();           
+    }
+}
+
+main();
