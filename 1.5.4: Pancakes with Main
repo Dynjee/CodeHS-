@@ -1,0 +1,22 @@
+function giveBall3() {
+    putBall();
+    putBall();
+    putBall();
+}
+
+function main() {
+    move();
+    giveBall3();
+    
+    move();
+    move();
+    giveBall3();
+    
+    move();
+    move();
+    giveBall3();
+    
+    move();
+}
+
+main();
