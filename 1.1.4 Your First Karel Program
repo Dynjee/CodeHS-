@@ -1,0 +1,7 @@
+move();
+move();
+move();
+move();
+takeBall();
+
+// it's easy for now. but it'll get harder as time goes on
