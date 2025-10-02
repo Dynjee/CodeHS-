@@ -1,0 +1,15 @@
+function put3Ball() {
+    putBall();
+    putBall();
+    putBall();
+}
+
+move();
+put3Ball();
+move();
+move();
+put3Ball();
+move();
+move();
+put3Ball();
+move();
