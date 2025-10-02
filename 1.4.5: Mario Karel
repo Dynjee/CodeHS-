@@ -1,0 +1,66 @@
+function takeball2() {
+    takeBall();
+    takeBall();
+}
+
+function movethreetimes() {
+    move();
+    move();
+    move();
+}
+
+function turnright() {
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
+
+move();
+turnLeft();
+movethreetimes();
+takeBall();
+takeBall();
+turnLeft();
+turnLeft();
+movethreetimes();
+
+turnLeft();
+move();
+
+move();
+turnLeft();
+movethreetimes();
+takeBall();
+takeBall();
+turnLeft();
+turnLeft();
+movethreetimes();
+
+
+turnLeft();
+move();
+
+move();
+turnLeft();
+movethreetimes();
+takeBall();
+takeBall();
+turnLeft();
+turnLeft();
+movethreetimes();
+
+
+turnLeft();
+move();
+
+move();
+turnLeft();
+movethreetimes();
+takeBall();
+takeBall();
+turnLeft();
+turnLeft();
+movethreetimes();
+
+
+turnLeft();
