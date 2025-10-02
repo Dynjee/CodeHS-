@@ -1,0 +1,42 @@
+function story() {
+    movetoball();
+    turnup();
+    put3ball();
+    returntonormalstate();
+    movetoball();
+    move();
+    returntonormalstate();
+    put3ball();
+    turnup();
+    turnLeft();
+    move();
+    move();
+    move();
+    returntonormalstate();
+}
+
+
+
+function movetoball() {
+    move();
+}
+
+function put3ball() {
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+}
+
+function turnup() {
+    turnLeft();
+}
+
+function returntonormalstate() {
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
+
+story();
