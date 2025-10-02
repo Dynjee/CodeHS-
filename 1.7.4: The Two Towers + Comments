@@ -1,0 +1,44 @@
+function main() {
+    buildTower();   // builds first tower
+    buildTower2();  // builds second tower
+}
+
+// builds the first tower and goes back down
+function buildTower() {
+    move();
+    turnLeft();
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+    turnLeft();
+    turnLeft();
+    move();
+    move();
+    turnLeft();
+}
+
+// builds the second tower (slightly different shape)
+function buildTower2() {
+    move();
+    move();
+    turnLeft();
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+    move();
+    turnRight();
+}
+
+// right turn helper
+function turnRight() {
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
+
+// make sure program actually runs
+main();
